@@ -1148,7 +1148,7 @@ export class InflectorService {
    * @param {string} className the class name for getting related table_name
    * @return string
    */
-  tableize(className): string {
+  tableize(className: string): string {
     return this.pluralize(this.underscore(className));
   }
 
@@ -1180,7 +1180,7 @@ export class InflectorService {
    * @param {string} tableName
    * @return {string}
    */
-  classify(tableName): string {
+  classify(tableName: string): string {
     return this.camelize(this.singularize(tableName));
   }
 
@@ -1189,7 +1189,7 @@ export class InflectorService {
    * @param {string} word the english word to singularize
    * @return {string} Singular noun.
    */
-  singularize(word): string {
+  singularize(word: string): string {
     let singularized: string;
     this.specials.forEach((value, key) => {
       if (value === word) {
@@ -1215,7 +1215,7 @@ export class InflectorService {
    * @param {string} word the word to be pluralized
    * @return {string} the pluralized word
    */
-  pluralize(word): string {
+  pluralize(word: string): string {
     if (this.specials.has(word)) {
       return this.specials.get(word);
     }
