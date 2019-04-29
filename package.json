@@ -1,6 +1,6 @@
 {
   "name": "@nestrx/inflector",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Helper inflector for NestJs framework.",
   "author": "zinzinday@gmail.com",
   "repository": "https://github.com/nestrx/inflector.git",

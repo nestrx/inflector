@@ -1,4 +1,4 @@
-# TWILIO
+# Inflector
 Inflector helper module for [NestJS framework](https://nestjs.com/).
 
 ## Installation
